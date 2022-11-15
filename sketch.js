@@ -36,7 +36,7 @@ function setup() {
   box3.parent(bigBox);
 
   let checkboxes = [];
-  for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 3; i++) {
     checkboxes[i] = createCheckbox();
     checkboxes[i].parent(osc1);
   }
